@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--main-bg-color: #e9e9e9;
+	--font-color-black: #000;
+	--font-muli: 'Mulish', sans-serif;
+	--fon†-monsterrat: 'Montserrat', sans-serif;
+	--font-dancing: 'Dancing Script', cursive;
+	--font-sacramento: 'Sacramento', cursive;
+}
+
+.mainContainer {
+	width: 100%;
+}
+
+/* Navigation  */
+.navContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	align-items: center;
+	padding: 0.2rem 1rem;
+	background-color: var(--main-bg-color);
+}
+
+.navMenu a {
+	text-decoration: none;
+	color: var(--font-color-black);
+	list-style-type: none;
+}
+
+.navMenu ul {
+	display: flex;
+}
+
+.navMenu ul li {
+	padding-left: 1rem;
+}
+
+.logoContainer h3 {
+	font-family: var(--font-sacramento);
+	font-size: 1.8rem;
+	text-decoration: none;
+	color: var(--font-color-black);
+}
+
+.logoContainer a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navLink.active {
+	background-color: red;
+}
+
+.navLink {
+}
+
+/* Image container */
+
+.imageContainer {
+	display: flex;
+	flex: wrap;
+}
+
+.imageLeft {
+	background-color: yellow;
+	height: 100px;
+	width: 100px;
+}
+
+.imageRight {
+	background-color: hotpink;
+	height: 100px;
+	width: 100px;
+}
+
+.imageUpper {
+	background-color: khaki;
+	height: 100px;
+	width: 100px;
+}
+.imageBottom {
+	background-color: lightcoral;
+	height: 100px;
+	width: 100px;
+}
