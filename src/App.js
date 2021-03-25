@@ -6,6 +6,7 @@ import './css/App.css'
 
 // Components
 import Nav from './components/nav.js'
+import Footer from './components/footer.js'
 import Images from './components/image-section.js'
 
 // Pages
@@ -36,6 +37,7 @@ const Home = () => {
 		<div className="mainContainer">
 			<Nav />
 			<Images />
+			<Footer />
 		</div>
 	)
 }

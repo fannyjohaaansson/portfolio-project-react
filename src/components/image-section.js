@@ -8,17 +8,21 @@ function imageSection() {
 	return (
 		<section className="imageContainer">
 			<div className="imageLeft">
-				<img src={image1}></img>
+				<img src={image1} alt=""></img>
+
 				<h5 className="imgText">Creative Stuff</h5>
+				<div className="overlay1"></div>
 			</div>
 			<div className="imageRight">
 				<div className="imageUpper">
-					<img src={image2}></img>
-					<h5 className="imgText">Creative Stuff</h5>
+					<img src={image2} alt=""></img>
+					<h5 className="imgText2">Graphic Design</h5>
+					<div className="overlay2"></div>
 				</div>
 				<div className="imageBottom">
-					<img src={image3}></img>
-					<h5 className="imgText">Creative Stuff</h5>
+					<img src={image3} alt=""></img>
+					<h5 className="imgText3">Frontend Developer</h5>
+					<div className="overlay3"></div>
 				</div>
 			</div>
 		</section>

@@ -13,14 +13,10 @@ function Nav() {
 				<div className="navMenu">
 					<ul>
 						<Link to="/projects">
-							<li className="navLink">
-								<span>Portfolio</span>
-							</li>
+							<li className="navLink">Portfolio</li>
 						</Link>
 						<Link to="/contact">
-							<li className="navLink">
-								<span>Contact</span>
-							</li>
+							<li className="navLink">Contact</li>
 						</Link>
 					</ul>
 				</div>
@@ -28,22 +24,5 @@ function Nav() {
 		</>
 	)
 }
-
-// let Links = document.querySelectorAll('.navLink')
-// console.log(Links)
-
-// Links.forEach((event) => {
-// 	event.addEventListener('click', () => {
-// 		// removeActiveClasses()
-// 		navLink.classList.add('active')
-// 		console.log('hello')
-// 	})
-// })
-
-// export function removeActiveClasses() {
-// 	Links.forEach((navLink) => {
-// 		navLink.classList.remove('active')
-// 	})
-// }
 
 export default Nav
