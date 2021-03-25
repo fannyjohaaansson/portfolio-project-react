@@ -11,6 +11,7 @@
 :root {
 	--main-bg-color: #e9e9e9;
 	--font-color-black: #000;
+	--font-color-white: #fff;
 	--font-muli: 'Mulish', sans-serif;
 	--fon†-monsterrat: 'Montserrat', sans-serif;
 	--font-dancing: 'Dancing Script', cursive;
@@ -37,13 +38,16 @@
 	color: var(--font-color-black);
 	list-style-type: none;
 }
+.navMenu a:hover {
+	border-bottom: 1px solid black;
+}
 
 .navMenu ul {
 	display: flex;
 }
 
 .navMenu ul li {
-	padding-left: 1rem;
+	margin-left: 1rem;
 }
 
 .logoContainer h3 {
@@ -74,7 +78,6 @@
 }
 
 .imageLeft {
-	background-color: yellow;
 	height: 100%;
 	width: 50%;
 }
@@ -85,13 +88,11 @@
 }
 
 .imageRight {
-	background-color: hotpink;
 	height: 100%;
 	width: 50%;
 }
 
 .imageUpper {
-	background-color: khaki;
 	width: 100%;
 }
 
@@ -104,4 +105,19 @@
 .imageBottom {
 	background-color: lightcoral;
 	width: 100%;
+}
+
+.imgText {
+	position: absolute;
+	bottom: 200px;
+	left: 20px;
+	color: var(--font-color-white);
+	font-family: var(--font-muli);
+	font-size: 1.8rem;
+	opacity: 0;
+	transition: 0.4s ease;
+}
+
+.imageLeft:hover .imgText {
+	opacity: 1;
 }
