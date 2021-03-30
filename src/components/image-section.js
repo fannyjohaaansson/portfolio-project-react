@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import image1 from '../images/ipad-work.jpg'
-import image2 from '../images/placeholder.jpg'
+import image2 from '../images/Forpackningar_pasar.jpg'
 import image3 from '../images/bruno-kelzer-Dw6tBa20afk-unsplash.jpg'
 
 function imageSection() {

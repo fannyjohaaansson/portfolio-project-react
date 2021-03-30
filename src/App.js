@@ -8,6 +8,7 @@ import './css/App.css'
 import Nav from './components/nav.js'
 import Footer from './components/footer.js'
 import Images from './components/image-section.js'
+import Intro from './components/intro-section.js'
 
 // Pages
 import Projects from './pages/projects'
@@ -36,6 +37,7 @@ const Home = () => {
 	return (
 		<div className="mainContainer">
 			<Nav />
+			<Intro />
 			<Images />
 			<Footer />
 		</div>
