@@ -23,7 +23,7 @@ function Header() {
 					some frontend work.
 				</p>
 				<Link to="/contact">
-					<div className="contact-me-button" align="center">
+					<div className="contact-me-button contact" align="center">
 						<span>Contact me</span>
 					</div>
 				</Link>
