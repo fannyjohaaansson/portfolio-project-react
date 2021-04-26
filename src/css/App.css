@@ -129,7 +129,7 @@ body {
 	height: 50%;
 }
 
-/********* Overlay effect for boxes on frontpage ********/
+/********* Overlay effect for boxes on frontpage and portfolio section ********/
 .overlay1,
 .overlay2,
 .overlay3 {
@@ -163,6 +163,36 @@ body {
 .imageUpper:hover .overlay2,
 .imageBottom:hover .imgText3,
 .imageBottom:hover .overlay3 {
+	opacity: 1;
+}
+
+/* Test */
+
+.overlay-portfolio {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.4s ease;
+}
+
+.imgText-portfolio {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: var(--font-color-white);
+	font-family: var(--font-dancing);
+	font-size: 1.8rem;
+	opacity: 0;
+	transition: 0.4s ease;
+	z-index: 10;
+}
+
+.project-images:hover .imgText-portfolio,
+.project-images:hover .overlay-portfolio {
 	opacity: 1;
 }
 
@@ -318,4 +348,65 @@ body {
 		padding-top: 3rem;
 		padding-left: 8rem;
 	}
+}
+
+/****** Project page ******/
+
+.project-container {
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.project-images {
+	height: 25rem;
+	position: relative;
+}
+
+.project-image {
+	width: 100%;
+	height: 25rem;
+	object-fit: cover;
+}
+
+.project-intro h2 {
+	font-family: var(--font-dancing);
+	font-size: 3.5rem;
+	margin: 2rem 0rem 1rem 1rem;
+}
+
+.project-intro p {
+	margin: 0rem 1rem 1rem 1rem;
+	line-height: 1.4rem;
+	font-family: var(--font-PT-sans);
+}
+
+.social-media-project {
+	width: 15%;
+	display: flex;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+.social-media-icons-project {
+	text-decoration: none;
+	list-style-type: none;
+	margin-right: 1rem;
+}
+.social-media-icons-project img {
+	width: 2rem;
+}
+/***** Subpages *****/
+
+.heading-subpage {
+	font-family: var(--font-dancing);
+	font-size: 3.5rem;
+	margin: 2rem 0rem 1rem 1rem;
+}
+
+.paragraph-subpage {
+	font-family: var(--font-PT-sans);
+	width: 40%;
+	margin: 0rem 1rem 1rem 1rem;
 }
