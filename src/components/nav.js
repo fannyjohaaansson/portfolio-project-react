@@ -7,13 +7,13 @@ function Nav() {
 			<div className="navContainer">
 				<div className="logoContainer">
 					<Link to="/">
-						<h3>Fanny Johansson</h3>
+						<h3>fanny johansson</h3>
 					</Link>
 				</div>
 				<div className="navMenu">
 					<ul>
-						<Link to="/projects">
-							<li className="navLink">Portfolio</li>
+						<Link to="/about">
+							<li className="navLink">About me</li>
 						</Link>
 						<Link to="/contact">
 							<li className="navLink">Contact</li>

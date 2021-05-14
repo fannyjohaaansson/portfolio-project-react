@@ -1,11 +1,11 @@
 import React from 'react'
-import Selfie from '../images/selfie.jpg'
+// import Selfie from '../images/selfie.jpg'
 import { Link } from 'react-router-dom'
 
 function Header() {
 	return (
 		<section className="header-container">
-			<div className="figure">
+			{/* <div className="figure">
 				<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 					<path
 						fill="#ECD288"
@@ -13,7 +13,7 @@ function Header() {
 						transform="translate(100 100)"
 					/>
 				</svg>{' '}
-			</div>
+			</div> */}
 			<div className="intro-text">
 				<h2>Hello there!</h2>
 				<p>
@@ -28,9 +28,9 @@ function Header() {
 					</div>
 				</Link>
 			</div>
-			<div className="intro-selfie">
+			{/* <div className="intro-selfie">
 				<img src={Selfie} alt=""></img>
-			</div>
+			</div> */}
 		</section>
 	)
 }

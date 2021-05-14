@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function Zlideon() {
 	return (

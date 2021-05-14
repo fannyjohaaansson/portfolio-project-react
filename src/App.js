@@ -7,12 +7,14 @@ import './css/App.css'
 // Components
 import Nav from './components/nav.js'
 import Footer from './components/footer.js'
-import Images from './components/image-section.js'
+// import Images from './components/image-section.js'
 import Intro from './components/intro-section.js'
+import Showcase from './components/project-showcase.js'
 
 // Pages
-import Projects from './pages/projects'
+// import Projects from './pages/projects'
 import Contact from './pages/contact'
+import About from './pages/about.js'
 import Bachelor from './subpages/bachelor'
 import Book from './subpages/book'
 import Creative from './subpages/creative'
@@ -26,8 +28,8 @@ function App() {
 			{/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
 			<Switch>
-				<Route path="/projects">
-					<Projects />
+				<Route path="/about">
+					<About />
 				</Route>
 				<Route path="/contact">
 					<Contact />
@@ -63,7 +65,7 @@ const Home = () => {
 		<div className="mainContainer">
 			<Nav />
 			<Intro />
-			<Images />
+			<Showcase />
 			<Footer />
 		</div>
 	)

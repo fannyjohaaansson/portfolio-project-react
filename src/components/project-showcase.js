@@ -1,8 +1,5 @@
 import React from 'react'
 
-import Nav from '../components/nav.js'
-import Footer from '../components/footer.js'
-
 import IpadWork from '../images/portfolio/ipad-work.jpg'
 import Packaging from '../images/portfolio/Forpackningar_pasar.jpg'
 import ZlideLogo from '../images/portfolio/zlideon-logo.jpg'
@@ -10,32 +7,10 @@ import Garlic from '../images/garlic/garlic.jpg'
 import Book from '../images/portfolio/Fram_5.jpg'
 import Pomodoro from '../images/portfolio/pomodoro-mockup.png'
 import { Link } from 'react-router-dom'
-import Github from '../images/icons/GitHub-Mark-64px.png'
-import Linkedin from '../images/icons/linkedin.png'
 
-function projects() {
+function projectShowCase() {
 	return (
-		<section className="projectMainContainer">
-			<Nav />
-			<section className="project-intro">
-				<h2>Project showcase</h2>
-				<p>
-					Down below is a showcase of some of my recent work. <br /> To see more
-					of my frontend work, switch over to my github.
-				</p>
-				<ul className="social-media-project">
-					<li className="social-media-icons-project">
-						<a href="https://github.com/fannyjohaaansson">
-							<img src={Github} alt=""></img>
-						</a>
-					</li>
-					<li className="social-media-icons-project">
-						<a href="https://www.linkedin.com/in/fanny-johansson-69996814a/">
-							<img src={Linkedin} alt=""></img>
-						</a>
-					</li>
-				</ul>
-			</section>
+		<section>
 			<section className="project-container">
 				<div className="project-images">
 					<Link to="/zlideon">
@@ -80,9 +55,8 @@ function projects() {
 					</Link>
 				</div>
 			</section>
-			<Footer />
 		</section>
 	)
 }
 
-export default projects
+export default projectShowCase

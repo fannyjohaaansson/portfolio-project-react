@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 /****** Variables *******/
 
@@ -22,6 +24,8 @@
 	--font-sacramento: 'Sacramento', cursive;
 	--font-lato: 'Lato', sans-serif;
 	--font-PT-sans: 'PT Sans', sans-serif;
+	--font-anton: ' Anton ', sans-serif;
+	--font-fjalla: 'Fjalla One', sans-serif;
 }
 
 * {
@@ -45,7 +49,7 @@ body {
 	justify-content: space-between;
 	align-content: space-between;
 	align-items: center;
-	background-color: var(--bg-color-light-yellow);
+	background-color: #fff;
 }
 
 .navMenu a {
@@ -66,12 +70,12 @@ body {
 }
 
 .navMenu ul li {
-	padding: 1rem;
+	padding: 1.4rem;
 	transition: transform 0.1s linear;
 }
 
 .logoContainer h3 {
-	font-family: var(--font-dancing);
+	font-family: var(--font-fjalla);
 	font-size: 1.8rem;
 	text-decoration: none;
 	color: var(--font-color-black);
@@ -83,50 +87,17 @@ body {
 	list-style-type: none;
 }
 
-/******* Image container frontpage ********/
+@media (max-width: 420px) {
+	.logoContainer h3 {
+		margin: 0;
+	}
+	.navMenu ul li {
+		padding: 1.5rem 0.5rem;
+	}
 
-.imageContainer {
-	display: flex;
-	flex: wrap;
-}
-
-.imageLeft {
-	height: 100%;
-	width: 100%;
-	display: inline-block;
-	position: relative;
-}
-
-.imageLeft img {
-	width: 100%;
-	height: 100%;
-}
-
-.imageLeftContainer {
-	height: 100%;
-	width: 50%;
-}
-
-.imageRight {
-	height: 100%;
-	width: 50%;
-}
-
-.imageUpper {
-	width: 100%;
-	position: relative;
-}
-
-.imageBottom {
-	width: 100%;
-	position: relative;
-	margin-top: -4px;
-}
-
-.imageUpper img,
-.imageBottom img {
-	width: 100%;
-	height: 50%;
+	.navContainer {
+		padding: 0 0.5rem;
+	}
 }
 
 /********* Overlay effect for boxes on frontpage and portfolio section ********/
@@ -150,7 +121,7 @@ body {
 	bottom: 20px;
 	right: 20px;
 	color: var(--font-color-white);
-	font-family: var(--font-dancing);
+	font-family: var(--font-fjalla);
 	font-size: 1.8rem;
 	opacity: 0;
 	transition: 0.4s ease;
@@ -166,7 +137,7 @@ body {
 	opacity: 1;
 }
 
-/* Test */
+/***** Overlay img *****/
 
 .overlay-portfolio {
 	position: absolute;
@@ -184,7 +155,7 @@ body {
 	bottom: 20px;
 	right: 20px;
 	color: var(--font-color-white);
-	font-family: var(--font-dancing);
+	font-family: var(--font-fjalla);
 	font-size: 1.8rem;
 	opacity: 0;
 	transition: 0.4s ease;
@@ -199,31 +170,7 @@ body {
 /****** intro section ******/
 
 .header-container {
-	position: relative;
 	width: 100%;
-	height: 35rem;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.figure {
-	width: 50%;
-	position: absolute;
-	right: 2%;
-}
-
-.intro-selfie {
-	width: 50%;
-	height: 20rem;
-	grid-column: 2;
-	z-index: 1;
-	padding-top: 3rem;
-	padding-left: 2rem;
-}
-
-.intro-selfie img {
-	width: 100%;
-	border-radius: 50% 50%;
 }
 
 .intro-text {
@@ -231,7 +178,7 @@ body {
 }
 
 .intro-text h2 {
-	font-family: var(--font-dancing);
+	font-family: var(--font-fjalla);
 	font-size: 3.5rem;
 	margin-bottom: 0.4rem;
 }
@@ -255,7 +202,7 @@ body {
 	border: none;
 	color: #000;
 	text-align: center;
-	font-family: var(--font-dancing);
+	font-family: var(--font-fjalla);
 	font-size: 1.8rem;
 	padding: 0.5rem;
 	/* width: 10rem; */
@@ -288,7 +235,7 @@ body {
 /****** Footer  ******/
 
 .footerContainer {
-	background-color: var(--bg-color-light-yellow);
+	background-color: #fff;
 	padding: 1rem;
 }
 
@@ -328,35 +275,47 @@ body {
 	width: 2rem;
 }
 
-/****** Responsive styling ******/
-
-@media (min-width: 1300px) {
-	.header-container {
-		height: 40rem;
+@media (max-width: 750px) {
+	.links-subpages {
+		width: 30%;
 	}
-
-	.figure {
-		width: 40%;
-		position: absolute;
-	}
-
-	.intro-selfie {
-		width: 40%;
-		height: 15rem;
-		grid-column: 2;
-		z-index: 1;
-		padding-top: 3rem;
-		padding-left: 8rem;
+	.socialMediaContainer {
+		width: 30%;
 	}
 }
 
-/****** Project page ******/
+@media (max-width: 420px) {
+	.links-subpages {
+		width: 40%;
+	}
+	.socialMediaContainer {
+		width: 40%;
+	}
+}
+/****** Project section ******/
+
+.projectMainContainer {
+	background-color: #fff;
+}
 
 .project-container {
 	width: 100vw;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
+}
+
+@media (max-width: 950px) {
+	.project-container {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+}
+@media (max-width: 420px) {
+	.project-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
 }
 
 .project-images {
@@ -371,7 +330,7 @@ body {
 }
 
 .project-intro h2 {
-	font-family: var(--font-dancing);
+	font-family: var(--font-fjalla);
 	font-size: 3.5rem;
 	margin: 2rem 0rem 1rem 1rem;
 }
@@ -400,7 +359,7 @@ body {
 /***** Subpages *****/
 
 .heading-subpage {
-	font-family: var(--font-dancing);
+	font-family: var(--font-fjalla);
 	font-size: 3.5rem;
 	margin: 2rem 0rem 1rem 1rem;
 }
@@ -409,4 +368,82 @@ body {
 	font-family: var(--font-PT-sans);
 	width: 40%;
 	margin: 0rem 1rem 1rem 1rem;
+}
+
+/****** Contact page ******/
+.contactContainer {
+	background-color: #fff;
+	padding-bottom: 3rem;
+}
+
+.contactHeading {
+	font-family: var(--font-fjalla);
+	font-size: 3.5rem;
+	margin: 1rem 0rem 1rem 1rem;
+}
+
+.contactP {
+	font-family: var(--font-PT-sans);
+	font-size: 1.2rem;
+	width: 40%;
+	line-height: 2rem;
+	margin: 1rem 1rem 1rem 1rem;
+}
+
+.contactText {
+	padding: 4rem;
+}
+
+@media (max-width: 420px) {
+	.contactText {
+		padding: 2rem;
+	}
+}
+
+/***** About me  *****/
+
+.aboutContainer {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 3rem;
+}
+
+.selfieImage {
+	width: 20rem;
+}
+
+.selfieContainer {
+	height: 70%;
+}
+
+.aboutHeader {
+	font-family: var(--font-fjalla);
+	font-size: 3.5rem;
+	margin: 2rem 0rem 1rem 1rem;
+}
+
+.aboutP {
+	font-family: var(--font-PT-sans);
+	font-size: 1.2rem;
+	width: 80%;
+	line-height: 1.5rem;
+	margin: 1rem 1rem 1rem 1rem;
+}
+
+.skills {
+	font-size: 1rem;
+
+	font-style: italic;
+}
+
+@media (max-width: 750px) {
+	.aboutContainer {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 420px) {
+	.aboutP {
+		width: 90%;
+	}
 }
