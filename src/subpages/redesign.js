@@ -1,7 +1,10 @@
 import React from 'react'
 import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
-import Placeholder from '../images/placeholder.jpg'
+import Image1 from '../images/garlic/garlic-1.jpg'
+import Image2 from '../images/garlic/garlic-2.jpg'
+import Image3 from '../images/garlic/garlic-3.jpg'
+import Image4 from '../images/garlic/garlic-plant.jpg'
 
 function Redesign() {
 	return (
@@ -24,11 +27,17 @@ function Redesign() {
 				</p>
 			</section>
 			<section className="subpageImagesContainer">
-				<div className="subpageImages">
-					<img src={Placeholder}></img>
+				<div className="subpageImages garlic">
+					<img src={Image1} alt=""></img>
 				</div>
-				<div className="subpageImages">
-					<img src={Placeholder}></img>
+				<div className="subpageImages garlic">
+					<img src={Image2} alt=""></img>
+				</div>
+				<div className="subpageImages garlic">
+					<img src={Image3} alt=""></img>
+				</div>
+				<div className="subpageImages garlic">
+					<img src={Image4} alt=""></img>
 				</div>
 			</section>
 			<Footer />

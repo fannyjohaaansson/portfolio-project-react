@@ -25,10 +25,10 @@ function Pomodoro() {
 			</section>
 			<section className="subpageImagesContainer">
 				<div className="subpageImages">
-					<img src={Placeholder}></img>
+					<img src={Placeholder} alt=""></img>
 				</div>
 				<div className="subpageImages">
-					<img src={Placeholder}></img>
+					<img src={Placeholder} alt=""></img>
 				</div>
 			</section>
 			<Footer />

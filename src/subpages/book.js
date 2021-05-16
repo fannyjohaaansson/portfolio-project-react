@@ -2,6 +2,12 @@ import React from 'react'
 import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
 import Placeholder from '../images/placeholder.jpg'
+import Image1 from '../images/Book/book-2.jpg'
+import Image2 from '../images/Book/book-3.jpg'
+import Image3 from '../images/Book/book-b.jpg'
+import Image4 from '../images/Book/book-v.jpg'
+import Image5 from '../images/Book/book-i.jpg'
+import Image6 from '../images/Book/book-1.jpg'
 
 function Book() {
 	return (
@@ -25,10 +31,22 @@ function Book() {
 			</section>
 			<section className="subpageImagesContainer">
 				<div className="subpageImages">
-					<img src={Placeholder}></img>
+					<img src={Image6} alt=""></img>
 				</div>
 				<div className="subpageImages">
-					<img src={Placeholder}></img>
+					<img src={Image5} alt=""></img>
+				</div>
+				<div className="subpageImages">
+					<img src={Image1} alt=""></img>
+				</div>
+				<div className="subpageImages">
+					<img src={Image2} alt=""></img>
+				</div>
+				<div className="subpageImages">
+					<img src={Image3} alt=""></img>
+				</div>
+				<div className="subpageImages">
+					<img src={Image4} alt=""></img>
 				</div>
 			</section>
 			<Footer />

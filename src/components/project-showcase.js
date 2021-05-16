@@ -1,10 +1,10 @@
 import React from 'react'
 
 import IpadWork from '../images/portfolio/ipad-work.jpg'
-import Packaging from '../images/portfolio/Forpackningar_pasar.jpg'
+import Packaging from '../images/bachelor/bags-1.jpg'
 import ZlideLogo from '../images/portfolio/zlideon-logo.jpg'
-import Garlic from '../images/garlic/garlic.jpg'
-import Book from '../images/portfolio/Fram_5.jpg'
+import Garlic from '../images/garlic/garlic-1.jpg'
+import Book from '../images/Book/book-1.jpg'
 import Pomodoro from '../images/portfolio/pomodoro-mockup.png'
 import { Link } from 'react-router-dom'
 

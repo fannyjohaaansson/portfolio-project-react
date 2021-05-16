@@ -1,7 +1,10 @@
 import React from 'react'
 import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
-import Placeholder from '../images/placeholder.jpg'
+import Image1 from '../images/bachelor/box.jpg'
+import Image2 from '../images/bachelor/bags-1.jpg'
+import Image3 from '../images/bachelor/bags-2.jpg'
+import Image4 from '../images/bachelor/recipie.jpg'
 
 function Bachelor() {
 	return (
@@ -25,10 +28,16 @@ function Bachelor() {
 			</section>
 			<section className="subpageImagesContainer">
 				<div className="subpageImages">
-					<img src={Placeholder}></img>
+					<img src={Image1} alt=""></img>
 				</div>
 				<div className="subpageImages">
-					<img src={Placeholder}></img>
+					<img src={Image3} alt=""></img>
+				</div>
+				<div className="subpageImages">
+					<img src={Image2} alt=""></img>
+				</div>
+				<div className="subpageImages">
+					<img src={Image4} alt=""></img>
 				</div>
 			</section>
 			<Footer />
