@@ -12,10 +12,10 @@ function About() {
 					<h1 className="aboutHeader">Who am i?</h1>
 					<p className="aboutP">
 						{' '}
-						I am a happy and open person who loves to learn new things and likes
-						a challenge. I have a bachelor’s degree in graphic design and
-						communication, and am now furthering my education as a front-end
-						developer at Hyper Island.
+						My name is Fanny and i'm currently based in Stockholm. I have a
+						bachelor’s degree in graphic design and communication, and am now
+						furthering my education as a front-end developer at Hyper Island. I
+						like painting, long walks and a good beer.
 					</p>
 					<p className="aboutP skills">
 						Skills: HTML, CSS, React, Javascript, Graphic Design, Photoshop,
