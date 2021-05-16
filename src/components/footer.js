@@ -8,8 +8,8 @@ function Footer() {
 		<>
 			<div className="footerContainer">
 				<ul className="links-subpages">
-					<Link to="/projects">
-						<li>Portfolio</li>
+					<Link to="/about">
+						<li>About me</li>
 					</Link>
 					<Link to="/contact">
 						<li>Contact</li>
