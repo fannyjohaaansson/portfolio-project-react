@@ -356,6 +356,7 @@ body {
 .social-media-icons-project img {
 	width: 2rem;
 }
+
 /***** Subpages *****/
 
 .subpageContainer {
@@ -374,19 +375,24 @@ body {
 	margin: 0rem 1rem 1rem 1rem;
 }
 
+.link {
+	color: black;
+}
+
 .subpageImagesContainer {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	column-gap: 1rem;
 	row-gap: 1rem;
-	width: 91%;
+	/* width: 91%; */
 	margin: auto;
+	padding: 0 4rem;
 	margin-bottom: 4rem;
 }
 
 .subpageImages {
 	width: 100%;
-	height: 40rem;
+	height: 100%;
 }
 
 .subpageImages img {
@@ -394,6 +400,45 @@ body {
 	height: 100%;
 	object-fit: cover;
 }
+
+#zlideon img {
+	object-fit: scale-down;
+	width: 100%;
+}
+
+#pomodoro {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+@media (max-width: 750px) {
+	.subpageImagesContainer {
+		grid-template-columns: 1fr;
+	}
+
+	.paragraph-subpage {
+		width: 80%;
+	}
+}
+
+@media (max-width: 420px) {
+	.heading-subpage {
+		margin: 0;
+	}
+	.paragraph-subpage {
+		width: 100%;
+		margin: 0;
+	}
+
+	.subpageImagesContainer {
+		padding: 2rem;
+	}
+
+	.subpageContainer {
+		padding: 2rem;
+	}
+}
+
 /****** Contact page ******/
 .contactContainer {
 	background-color: #fff;
@@ -420,7 +465,7 @@ body {
 
 @media (max-width: 420px) {
 	.contactText {
-		padding: 2rem;
+		padding: rem;
 	}
 }
 
@@ -468,7 +513,11 @@ body {
 }
 
 @media (max-width: 420px) {
+	.aboutHeader {
+		margin: 0 0 1rem 0;
+	}
 	.aboutP {
-		width: 90%;
+		width: 95%;
+		margin: 0 0 1rem 0;
 	}
 }

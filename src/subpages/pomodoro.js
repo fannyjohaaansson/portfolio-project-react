@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
 import Placeholder from '../images/placeholder.jpg'
-
+import Image from '../images/portfolio/pomodoro-mockup.jpg'
 function Pomodoro() {
 	return (
 		<div>
@@ -10,25 +10,19 @@ function Pomodoro() {
 			<section className="subpageContainer">
 				<h2 className="heading-subpage">Pomodoro clock</h2>
 				<p className="paragraph-subpage">
-					There are many variations of passages of Lorem Ipsum available, but
-					the majority have suffered alteration in some form, by injected
-					humour, or randomised words which don't look even slightly believable.
-					If you are going to use a passage of Lorem Ipsum, you need to be sure
-					there isn't anything embarrassing hidden in the middle of text. All
-					the Lorem Ipsum generators on the Internet tend to repeat predefined
-					chunks as necessary, making this the first true generator on the
-					Internet. It uses a dictionary of over 200 Latin words, combined with
-					a handful of model sentence structures, to generate Lorem Ipsum which
-					looks reasonable. The generated Lorem Ipsum is therefore always free
-					from repetition, injected humour, or non-characteristic words etc.
+					A small school project built in react JS. The pomodoro technique
+					allows you to make the time more efficient.
 				</p>
+				<a
+					href="https://fannyjohaaansson.github.io/pomodoro-clock/"
+					className="link"
+				>
+					<p className="paragraph-subpage">Try it!</p>
+				</a>
 			</section>
 			<section className="subpageImagesContainer">
-				<div className="subpageImages">
-					<img src={Placeholder} alt=""></img>
-				</div>
-				<div className="subpageImages">
-					<img src={Placeholder} alt=""></img>
+				<div className="subpageImages" id="pomodoro">
+					<img src={Image} alt=""></img>
 				</div>
 			</section>
 			<Footer />

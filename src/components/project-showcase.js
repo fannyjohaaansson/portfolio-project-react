@@ -2,10 +2,10 @@ import React from 'react'
 
 import IpadWork from '../images/portfolio/ipad-work.jpg'
 import Packaging from '../images/bachelor/bags-1.jpg'
-import ZlideLogo from '../images/portfolio/zlideon-logo.jpg'
+import ZlideLogo from '../images/zlideon/zlideon-front-1.png'
 import Garlic from '../images/garlic/garlic-1.jpg'
 import Book from '../images/Book/book-1.jpg'
-import Pomodoro from '../images/portfolio/pomodoro-mockup.png'
+import Pomodoro from '../images/portfolio/pomodoro-mockup.jpg'
 import { Link } from 'react-router-dom'
 
 function projectShowCase() {

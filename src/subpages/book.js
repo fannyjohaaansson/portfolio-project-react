@@ -16,17 +16,12 @@ function Book() {
 			<section className="subpageContainer">
 				<h2 className="heading-subpage">Book</h2>
 				<p className="paragraph-subpage">
-					There are many variations of passages of Lorem Ipsum available, but
-					the majority have suffered alteration in some form, by injected
-					humour, or randomised words which don't look even slightly believable.
-					If you are going to use a passage of Lorem Ipsum, you need to be sure
-					there isn't anything embarrassing hidden in the middle of text. All
-					the Lorem Ipsum generators on the Internet tend to repeat predefined
-					chunks as necessary, making this the first true generator on the
-					Internet. It uses a dictionary of over 200 Latin words, combined with
-					a handful of model sentence structures, to generate Lorem Ipsum which
-					looks reasonable. The generated Lorem Ipsum is therefore always free
-					from repetition, injected humour, or non-characteristic words etc.
+					A course in book binding, where we created a publishing company and
+					bound the book. I created Codex publishing company where you can have
+					a monthly subscription to coffee table books. The main book ”The book”
+					is just a magazine to promote the company and the services they
+					provide. I also made a cassette to my book for a more luxurious
+					feeling. The book took around three days to put together.
 				</p>
 			</section>
 			<section className="subpageImagesContainer">
@@ -34,13 +29,13 @@ function Book() {
 					<img src={Image6} alt=""></img>
 				</div>
 				<div className="subpageImages">
+					<img src={Image2} alt=""></img>
+				</div>
+				<div className="subpageImages">
 					<img src={Image5} alt=""></img>
 				</div>
 				<div className="subpageImages">
 					<img src={Image1} alt=""></img>
-				</div>
-				<div className="subpageImages">
-					<img src={Image2} alt=""></img>
 				</div>
 				<div className="subpageImages">
 					<img src={Image3} alt=""></img>
