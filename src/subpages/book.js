@@ -1,7 +1,6 @@
 import React from 'react'
 import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
-import Placeholder from '../images/placeholder.jpg'
 import Image1 from '../images/Book/book-2.jpg'
 import Image2 from '../images/Book/book-3.jpg'
 import Image3 from '../images/Book/book-b.jpg'

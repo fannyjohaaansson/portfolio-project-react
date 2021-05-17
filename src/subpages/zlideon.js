@@ -1,10 +1,9 @@
 import React from 'react'
 import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
-import Image1 from '../images/zlideon/zlideon-front-1.png'
-import Image2 from '../images/zlideon/zlideon-front.png'
-import Image3 from '../images/zlideon/zlideon-info.png'
-import Image4 from '../images/zlideon/zlideon-shop.png'
+import Image2 from '../images/zlideon/zlideon-front.jpg'
+import Image3 from '../images/zlideon/zlideon-info.jpg'
+import Image4 from '../images/zlideon/zlideon-shop.jpg'
 
 function Zlideon() {
 	return (

@@ -1,7 +1,6 @@
 import React from 'react'
 import Nav from '../components/nav.js'
 import Footer from '../components/footer.js'
-import Placeholder from '../images/placeholder.jpg'
 import Image from '../images/portfolio/pomodoro-mockup.jpg'
 function Pomodoro() {
 	return (
