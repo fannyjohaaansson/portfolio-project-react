@@ -386,13 +386,15 @@ body {
 	row-gap: 1rem;
 	/* width: 91%; */
 	margin: auto;
-	padding: 0 4rem;
+	padding: 2rem 4rem;
 	margin-bottom: 4rem;
+	background-color: white;
 }
 
 .subpageImages {
 	width: 100%;
 	height: 100%;
+	box-shadow: rgba(110, 110, 110, 0.35) 0px 5px 15px;
 }
 
 .subpageImages img {
@@ -409,6 +411,19 @@ body {
 #pomodoro {
 	grid-column-start: 1;
 	grid-column-end: 3;
+}
+
+#zlideon {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	width: 70%;
+	place-self: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#zlideonBg {
+	background-color: white;
+	padding: 2rem 0;
 }
 
 @media (max-width: 750px) {
@@ -436,6 +451,9 @@ body {
 
 	.subpageContainer {
 		padding: 2rem;
+	}
+	#zlideon {
+		width: 90%;
 	}
 }
 

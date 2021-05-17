@@ -19,16 +19,16 @@ function Zlideon() {
 					domain.
 				</p>
 			</section>
-			<section className="subpageImagesContainer">
+			<section className="subpageImagesContainer" id="zlideonBg">
 				<div className="subpageImages" id="zlideon">
 					<img src={Image2} alt=""></img>
 				</div>
 
 				<div className="subpageImages" id="zlideon">
-					<img src={Image3} alt=""></img>
+					<img src={Image4} alt=""></img>
 				</div>
 				<div className="subpageImages" id="zlideon">
-					<img src={Image4} alt=""></img>
+					<img src={Image3} alt=""></img>
 				</div>
 			</section>
 			<Footer />
