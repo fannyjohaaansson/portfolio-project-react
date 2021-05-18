@@ -24,36 +24,36 @@ import Zlideon from './subpages/zlideon'
 
 function App() {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			{/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
 			<Switch>
-				<Route path="/about">
+				<Route exact path="/about">
 					<About />
 				</Route>
-				<Route path="/contact">
+				<Route exact path="/contact">
 					<Contact />
 				</Route>
 
-				<Route path="/bachelor">
+				<Route exact path="/bachelor">
 					<Bachelor />
 				</Route>
-				<Route path="/book">
+				<Route exact path="/book">
 					<Book />
 				</Route>
-				<Route path="/creative">
+				<Route exact path="/creative">
 					<Creative />
 				</Route>
-				<Route path="/pomodoro">
+				<Route exact path="/pomodoro">
 					<Pomodoro />
 				</Route>
-				<Route path="/redesign">
+				<Route exact path="/redesign">
 					<Redesign />
 				</Route>
-				<Route path="/zlideon">
+				<Route exact path="/zlideon">
 					<Zlideon />
 				</Route>
-				<Route path="/">
+				<Route exact path="/">
 					<Home />
 				</Route>
 			</Switch>
