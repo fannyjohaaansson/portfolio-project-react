@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-project-react/static/css/main.d5545c37.chunk.css",
-    "main.js": "/portfolio-project-react/static/js/main.cc09937a.chunk.js",
-    "main.js.map": "/portfolio-project-react/static/js/main.cc09937a.chunk.js.map",
+    "main.js": "/portfolio-project-react/static/js/main.83a2a104.chunk.js",
+    "main.js.map": "/portfolio-project-react/static/js/main.83a2a104.chunk.js.map",
     "runtime-main.js": "/portfolio-project-react/static/js/runtime-main.aea1fec7.js",
     "runtime-main.js.map": "/portfolio-project-react/static/js/runtime-main.aea1fec7.js.map",
     "static/js/2.1534c946.chunk.js": "/portfolio-project-react/static/js/2.1534c946.chunk.js",
@@ -34,7 +34,7 @@
     "static/media/linkedin.9a1a7f81.png": "/portfolio-project-react/static/media/linkedin.9a1a7f81.png",
     "static/media/pomodoro-mockup.3cc44979.jpg": "/portfolio-project-react/static/media/pomodoro-mockup.3cc44979.jpg",
     "static/media/recipie.6af8fe1c.jpg": "/portfolio-project-react/static/media/recipie.6af8fe1c.jpg",
-    "static/media/selfie.3cd86bc6.jpg": "/portfolio-project-react/static/media/selfie.3cd86bc6.jpg",
+    "static/media/selfie.75582fcc.jpg": "/portfolio-project-react/static/media/selfie.75582fcc.jpg",
     "static/media/zlideon-front-1.ab1d60d4.png": "/portfolio-project-react/static/media/zlideon-front-1.ab1d60d4.png",
     "static/media/zlideon-front.c662642f.jpg": "/portfolio-project-react/static/media/zlideon-front.c662642f.jpg",
     "static/media/zlideon-info.c0a69c2e.jpg": "/portfolio-project-react/static/media/zlideon-info.c0a69c2e.jpg",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.aea1fec7.js",
     "static/js/2.1534c946.chunk.js",
     "static/css/main.d5545c37.chunk.css",
-    "static/js/main.cc09937a.chunk.js"
+    "static/js/main.83a2a104.chunk.js"
   ]
 }
