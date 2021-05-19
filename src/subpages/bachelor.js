@@ -13,7 +13,7 @@ function Bachelor() {
 			<section className="subpageContainer">
 				<h2 className="heading-subpage"> Bachelor</h2>
 				<p className="paragraph-subpage">
-					My bachelor project from the last year in graphic design and
+					My bachelor project from my last year in graphic design and
 					communication. Klimatmat is a company that delivers recipes gathered
 					in reusable packaging. The app allows you to pick the recipes,
 					portions and allergies that fits your needs. The production takes
