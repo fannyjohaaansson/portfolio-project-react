@@ -18,7 +18,7 @@ function Header() {
 				<h2>Hello there!</h2>
 				<p>
 					Welcome to my portfolio. I am a graphic designer who's currently
-					studying frontend developer at Hyper Island in stockholm. I will
+					studying frontend developer at Hyper Island in Stockholm. I will
 					showcase both graphic design work, creative stuff from my freetime and
 					some frontend work.
 				</p>
